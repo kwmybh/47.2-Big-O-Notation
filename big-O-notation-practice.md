@@ -12,3 +12,19 @@
 - O(2^n + n^2) -> O(2^n)
 - O(5 + 3 + 1) -> O(1)
 - O(n + n^(1/2) + n^2 + n \_ log(n)^10) -> O(n^2)
+
+# Step Two: Calculating Time Complexity
+
+    function logUpTo(n) {
+    for (let i = 1; i <= n; i++) {
+        console.log(i);
+        }
+    }
+
+    function logAtLeast10(n) {
+    for (let i = 1; i <= Math.max(n, 10); i++) {
+    console.log(i);
+        }
+    }
+
+# Step Three: short answer
